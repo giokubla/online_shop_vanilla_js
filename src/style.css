@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  min-height: 500px;
+}
+.card {
+  min-height: 500px;
+  overflow: hidden;
+}
+.product .card-text {
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  height: 150px;
+}
+.card-title {
+  min-height: 80px;
+}
+.page-link,
+.list-group-item {
+  cursor: pointer;
+}
